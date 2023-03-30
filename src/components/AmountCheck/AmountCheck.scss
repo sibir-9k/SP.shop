@@ -1,0 +1,15 @@
+.active__check {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px 50px 130px 41px;
+
+  .subtotal,
+  .tax,
+  .shipping,
+  .total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+  }
+}

@@ -1,0 +1,67 @@
+.mini-card {
+  display: flex;
+  max-width: 330px;
+  max-height: 100px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+
+  &__img {
+    padding: 25px 5px;
+    border: 1px solid #e7e7e7;
+    margin-right: 12px;
+
+    img {
+      max-width: 90px;
+      max-height: 51px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &-name {
+      width: 184px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      margin-right: 18px;
+      margin-bottom: 15px;
+    }
+
+    .list-btn {
+      display: flex;
+
+      &__count {
+        display: flex;
+        margin-right: 25px;
+
+        .count {
+          margin-left: 18px;
+          margin-right: 18px;
+        }
+
+        .minusBtn,
+        .plusBtn {
+          background-color: inherit;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &__delete {
+    display: flex;
+    align-items: flex-start;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 100%;
+
+    &:hover {
+      color: #b1b1b1;
+    }
+  }
+}
