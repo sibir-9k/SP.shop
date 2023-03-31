@@ -1,7 +1,7 @@
 # SP.shop
 
 
-https://user-images.githubusercontent.com/79311642/229144717-8e63784e-2cca-45ef-958e-f0a9d56b8fcd.mp4
+![video_2023-03-31_17-12-32](https://user-images.githubusercontent.com/79311642/229145457-5940ddcd-31bc-4847-bf6b-a0502e5e683d.gif)
 
 
 
