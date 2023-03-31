@@ -1,12 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/countSlice';
-import cardReducer from '../features/cardSlice'
+import cardReducer from '../features/cardSlice';
 import checkReducer from '../features/checkSlice';
+import showCardReducer from '../features/showCardSlice';
 
 export default configureStore({
 	reducer: {
-		count: counterReducer,
-    card: cardReducer,
-    check: checkReducer
+		card: cardReducer,
+		check: checkReducer,
+		show: showCardReducer,
 	},
 });
