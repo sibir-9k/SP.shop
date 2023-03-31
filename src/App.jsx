@@ -1,9 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-
 import { CardList } from './components/CardList/CardList'
 import { Header } from './components/Header/Header'
+import { LayoutCard } from './components/LayoutCard/LayoutCard.jsx'
 import './App.css'
-import { LayoutCard } from './components/LayoutCard/LayoutCard'
 
 function App() {
   return (
