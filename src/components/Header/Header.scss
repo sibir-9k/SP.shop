@@ -22,6 +22,10 @@ header {
 		width: 90px;
 		justify-content: space-between;
 
+    @media screen and (max-width: 450px) {
+      justify-content: flex-end;
+    }
+
 		&__basket {
 			cursor: pointer;
 			background-color: inherit;

@@ -4,6 +4,9 @@ main {
 	justify-content: space-between;
 	padding-top: 60px 80px 0px 80px;
 
+	@media (min-width: 375px) {
+		justify-content: center;
+	}
 	@media (min-width: 768px) {
 		gap: 50px 70px;
 	}
@@ -14,7 +17,7 @@ main {
 	}
 	@media (min-width: 1600px) {
 		min-width: 77vw;
-    padding: 60px 170px 0px 170px;
+		padding: 60px 170px 0px 170px;
 		display: grid;
 		grid-template-columns: 250px 250px 250px;
 		gap: 50px 50px;
